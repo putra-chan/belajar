@@ -1,0 +1,43 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background-image: linear-gradient(to right, #a25b5b, #692e4c);
+  padding: 1.5em 2em ;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+nav > a{
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+nav a:hover{
+  cursor: pointer;
+  color: #ffffff;
+}
+nav a::after{
+  text-decoration: underline;
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+.content{
+  min-height: 780px;
+}
