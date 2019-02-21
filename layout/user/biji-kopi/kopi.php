@@ -103,9 +103,9 @@
                     <h3><b>Nama Kopinya</b></h3>
                     <span class="price"><b>Rp. 7000</b></span>
                     <a href="#" class="price_linkto_cart">
-                    <div class="links">
-                      Beli
-                    </div>
+                      <div class="links">
+                        Beli
+                      </div>
                     </a>
                   </div>
                 </div>

@@ -175,7 +175,7 @@
           <h4 class="center">Temukan biji kopi hasil roastingan favoritmu disini!</h4>
         </div>
       </div>
-      <div class="container m">
+      <div class="container m card">
         <div class="row">
           <div class="col-xs-12 col-md-3">
 
@@ -236,7 +236,7 @@
           <h4 class="center">Temukan alat kopi favorit di Jayakopi.com</h4>
         </div>
       </div>
-      <div class="container">
+      <div class="container card">
         <div class="row">
           <div class="col-xs-12 col-md-9">
             <div class="row">
