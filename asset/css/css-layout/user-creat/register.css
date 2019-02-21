@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mt50{
+  margin-top: 50px;
+}
+.min-height{
+  min-height: 63px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
