@@ -68,31 +68,46 @@
               </div>
               <div class="col-xs-12">
                 <h4><b>Jenis Kopi</b></h4>
-                <div class="row">
+                <div class="row checkbox_position">
                   <input type="checkbox" aria-label="...">
                   <span>Arabika</span>
                 </div>
               </div>
               <div class="col-xs-12">
                 <h4><b>Brand</b></h4>
-                <div class="row">
+                <div class="row checkbox_position">
                   <input type="checkbox" aria-label="...">
                   <span>Brewer Coffe</span>
                 </div>
               </div>
               <div class="col-xs-12">
                 <h4><b>Origin Kopi</b></h4>
-                <div class="row">
+                <div class="row checkbox_position">
                   <input type="checkbox" aria-label="...">
                   <span>Aceh</span>
                 </div>
               </div>
           </div>
-          <div class="col-xs-12 col-md-10">
+
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-offset-1">
             <div class="row">
               <div class="col-xs-12 col-md-4">
                 <div class="row">
-                  
+                  <div class="img-wrapper card">
+                    <a href="#">
+                      <img src="../../../asset/img/kopi.jpg" alt="kopi">
+                    </a>
+                  </div>
+                  <div class="price_and_button">
+                    <h3><b>Nama Kopinya</b></h3>
+                    <span class="price"><b>Rp. 7000</b></span>
+                    <a href="#" class="price_linkto_cart">
+                    <div class="links">
+                      Beli
+                    </div>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class="col-xs-12 col-md-4">
@@ -102,7 +117,6 @@
 
               </div>
             </div>
-          </div>
         </div>
       </div>
     </main>
