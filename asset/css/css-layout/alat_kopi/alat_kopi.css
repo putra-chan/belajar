@@ -1,0 +1,9 @@
+.float-right{
+  float: right;
+}
+.content{
+  min-height: 780px;
+}
+.checkbox_position{
+  margin-left: -1px;
+}
