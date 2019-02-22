@@ -193,7 +193,7 @@
                       <div class="overlay">
                         <div class="row">
                           <div class="col-xs-12 col-md-12">
-                            <h3><a href="#">Kopi Lanang Sumatera Utara</a></h3>
+                            <h3><a href="layout/user/detail_kopi/detail_kopi.php">Kopi Lanang Sumatera Utara</a></h3>
                           </div>
                           <div class="col-xs-12 col-md-12">
                             <p>Bintang</p>
