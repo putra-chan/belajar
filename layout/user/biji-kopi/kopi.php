@@ -25,10 +25,16 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse right" id="navbar-collapse-kopi">
             <ul class="nav navbar-nav list">
-              <li><a href="#">Biji Kopi</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biji Kopi<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="kopi.php">Semua Biji Kopi</a></li>
+                </ul>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alat Kopi<span class="caret"></span></a>
                 <ul class="dropdown-menu">
+                  <li><a href="../alat_kopi/alat_kopi.php">Semua Alat Kopi</a></li>
                   <li><a href="#">Dripper</a></li>
                   <li><a href="#">Espresso Maker</a></li>
                   <li><a href="#">French Press</a></li>

@@ -94,8 +94,8 @@
                     </a>
                   </div>
                   <div class="price_and_button">
-                    <h3><b>Nama Kopinya</b></h3>
-                    <span class="price"><b>Rp. 7000</b></span>
+                    <h3><b>Nama Alat Kopinya</b></h3>
+                    <span class="price"><b>Rp. 80000</b></span>
                     <a href="#" class="price_linkto_cart">
                       <div class="links">
                         Beli
