@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .float-right{
   float: right;
@@ -12,6 +13,30 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
 }
-/* Image Zoom */
 
+.centered{
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+/* Image Zoom */
+.img-zoom-container {
+  position: relative;
+  cursor: zoom-in;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  /*set the size of the lens:*/
+  width: 50px;
+  height: 50px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
 /* End css image zoom */

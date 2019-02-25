@@ -54,15 +54,28 @@
     <main class="content">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 card zoom">
-            <img src="../../../asset/img/alat_kopi/v60.jpeg" alt="image-zoom">
+          <!-- <div class="col-sm-12 col-md-6 card zoom">
+            <img src="../../../asset/img/alat_kopi/v60.jpg" alt="image" class="centered" id="my-image">
+            <div class="img-zoom" id="result"></div>
+          </div> -->
+          <div class="col-sm-12 col-md-6 img-zoom-container">
+            <img id="myimage" src="../../../asset/img/alat_kopi/v60.jpg" alt="v60">
+            <div id="myresult" class="img-zoom-result"></div>
           </div>
           <div class="col-sm-12 col-md-6">
-
+            <div class="content-coffe">
+              <h1><b>Hario V60 Dripper White 01</b></h1>
+              <h3>Rp. 100000</h3>
+            </div>
           </div>
         </div>
       </div>
     </main>
+
     <script type="text/javascript" src="../../../asset/js/user/detail_kopi/detail_kopi.js"></script>
+    <script>
+      // Initiate zoom effect:
+      imageZoom("myimage", "myresult");
+    </script>
   </body>
 </html>
