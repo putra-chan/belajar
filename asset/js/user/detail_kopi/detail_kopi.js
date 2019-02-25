@@ -1,4 +1,5 @@
 function imageZoom(imgID, resultID) {
+  $("#myresult").show();
   var img, lens, result, cx, cy;
   img = document.getElementById(imgID);
   result = document.getElementById(resultID);
@@ -52,4 +53,8 @@ function imageZoom(imgID, resultID) {
     y = y - window.pageYOffset;
     return {x : x, y : y};
   }
+}
+
+function hideImage(){
+  $("#myresult").hide();
 }
