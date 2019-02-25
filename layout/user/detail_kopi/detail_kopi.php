@@ -66,6 +66,31 @@
             <div class="content-coffe">
               <h1><b>Hario V60 Dripper White 01</b></h1>
               <h3>Rp. 100000</h3>
+              <br>
+              <br>
+              <h3><b>Spesifikasi</b></h3>
+              <br>
+              <p class="font-size-spesifikasi">
+                Material : High Quality Heat Resistant Plastic
+                <br>
+                Dimensi (PxLxT) : 10.5 x 10 x 8.2 cm
+                <br>
+                Berat : 95 gram
+                <br>
+                Ukuran : 1 ~ 2 Cups
+                <br>
+                Cocok untuk pemakaian <a href="#">Hario Paper Filter ukuran 01</a>
+                <br>
+                Brand : Hario
+                <br>
+                Made in Japan
+              </p>
+              <form class="" action="#" method="post">
+                <div class="quantity">
+                  <b>Qty</b>
+                  
+                </div>
+              </form>
             </div>
           </div>
         </div>
