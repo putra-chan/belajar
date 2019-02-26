@@ -58,3 +58,14 @@ function imageZoom(imgID, resultID) {
 function hideImage(){
   $("#myresult").hide();
 }
+function addQty(){
+  var qty = parseInt($('#quantity_product').val());
+  $('#quantity_product').val(qty+= 1);
+}
+
+function lessQty(){
+  var qty = parseInt($('#quantity_product').val());
+  if (qty > 1) {
+    $('#quantity_product').val(qty -= 1);
+  }
+}

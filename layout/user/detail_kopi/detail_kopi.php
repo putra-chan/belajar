@@ -58,7 +58,7 @@
             <img src="../../../asset/img/alat_kopi/v60.jpg" alt="image" class="centered" id="my-image">
             <div class="img-zoom" id="result"></div>
           </div> -->
-          <div class="col-sm-12 col-md-6 img-zoom-container"  onmouseover="imageZoom('myimage', 'myresult')" onmouseleave="hideImage()">
+          <div class="col-sm-12 col-md-6 img-zoom-container card" onmouseover="imageZoom('myimage', 'myresult')" onmouseleave="hideImage()">
             <img id="myimage" src="../../../asset/img/alat_kopi/v60.jpg" alt="v60">
           </div>
           <div class="col-sm-12 col-md-6">
@@ -88,11 +88,25 @@
               <form class="" action="#" method="post">
                 <div class="quantity">
                   <b>Qty</b>
-                  
+                  <div class="quantity-inner">
+                    <button class="minus" onclick="lessQty()" type="button">
+                      <span class="glyphicon glyphicon-menu-down"></span>
+                    </button>
+                    <input type="text" step="1" min="1" max name="quantity" value="1" title="Qty" size="4" pattern="[0-9]" inputmode="numeric" class="qty" id="quantity_product">
+                    <button class="plus" onclick="addQty()" type="button">
+                      <span class="glyphicon glyphicon-menu-up"></span>
+                    </button>
+                    <button type="submit" name="add-to-cart" class="submit-product-to-cart btn btn-primary">Beli</button>
+                  </div>
                 </div>
               </form>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          
         </div>
       </div>
     </main>
