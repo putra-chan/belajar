@@ -27,7 +27,7 @@
         <div class="card">
           <h1>Login</h1>
           <p>If you don't have account <a href="../register/register.php">Register Now</a></p>
-          <form class="" action="index.html" method="post">
+          <form class="" action="#" method="post">
             <div class="form-group m30-120">
               <label for="username">Username :</label>
               <input type="username" class="form-control" id="username">

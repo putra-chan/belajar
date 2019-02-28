@@ -65,7 +65,26 @@ function addQty(){
 
 function lessQty(){
   var qty = parseInt($('#quantity_product').val());
-  if (qty > 1) {
+
+  if (qty  <= 0) {
+    alert("Please select some product options before adding this product to your cart.")
+  }
+  else if (qty > 1) {
     $('#quantity_product').val(qty -= 1);
   }
 }
+
+// $(".nav li").on("click", function(){
+//   $(".nav li").removeClass("active");
+//   // $(".tab-pane").removeClass('active');
+//   $(this).addClass("active");
+// });
+
+$('#tabs-nav a').click(function(e){
+  e.preventDefault();
+  $(this).tab('show');
+})
+
+$(document).ready(function() {
+  $("#myresult").hide();
+});
