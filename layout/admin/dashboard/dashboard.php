@@ -6,13 +6,14 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title></title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="../../../asset/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../asset/admin_lte/font/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../asset/admin_lte/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../asset/admin_lte/Ionik/ionicons.min.css">
     <link rel="stylesheet" href="../../../asset/admin_lte/Ionik/ionicons.min.css">
     <link rel="stylesheet" href="../../../asset/admin_lte/css/AdminLTE.min.css">
     <link rel="stylesheet" href="../../../asset/admin_lte/css/_all-skins.min.css">
     <link rel="stylesheet" href="../../../asset/css/normalize/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="../../../asset/css/css-layout/dashboard/dashboard.css">
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
