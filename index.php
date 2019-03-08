@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/normalize/normalize.css">
-    <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/sl-mp.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
   </head>
   <body>
     <header>
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div class="container m">
+      <div class="container sl-mt60">
         <div class="row wrapper-option">
           <div class="col-xs-12 col-md-12">
             <div class="wrapper-content">
@@ -171,7 +171,7 @@
           </div>
         </div>
       </div>
-      <div class="container m">
+      <div class="container m sl-mt60">
         <div class="wrapper-jualkopi">
           <h1 class="center"><b>Jual Kopi Online</b></h1>
           <h4 class="center">Temukan biji kopi hasil roastingan favoritmu disini!</h4>
@@ -194,7 +194,7 @@
                       <div class="overlay">
                         <div class="row">
                           <div class="col-xs-12 col-md-12">
-                            <h3><a href="layout/user/detail_kopi/detail_kopi.php">Kopi Lanang Sumatera Utara</a></h3>
+                            <h3><a href="layout/user/detail_kopi/detail_kopi.php" style="color:black">Kopi Lanang Sumatera Utara</a></h3>
                           </div>
                           <div class="col-xs-12 col-md-12">
                             <p>Bintang</p>
@@ -232,7 +232,7 @@
           </div>
         </div>
       </div>
-      <div class="container m">
+      <div class="container m sl-mt60">
         <div class="row">
           <h1 class="center"><b>Alat Kopi Favorit</b></h1>
           <h4 class="center">Temukan alat kopi favorit di Jayakopi.com</h4>
@@ -285,6 +285,8 @@
               <li><a href="#">Konfirmasi Pembayaran</a></li>
             </ul>
           </div>
+
+          <!-- Blog -->
           <div class="col-xs-12 col-md-4">
             <h1>Blog</h1>
             <p class="border"></p>
@@ -295,11 +297,24 @@
               <li><a href="#">4</a></li>
             </ul>
           </div>
+
+          <!-- Payment -->
           <div class="col-xs-12 col-md-4">
             <h1>Pembayaran</h1>
             <p class="border"></p>
             <ul class="style-list">
-              <li></li>
+              <li><img src="asset/img/footer-payment.png" alt="payment"></li>
+              <li>
+                <div class="row">
+                  <form class="sl-mt20" action="#" method="post">
+                    <div class="form-group">
+                      <label for="email-in">Daftarkan email anda dan dapatkan voucher menarik</label>
+                      <input type="email" name="email-in" class="form-control" placeholder="Email" id="email-in">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Daftar Sekarang</button>
+                  </form>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

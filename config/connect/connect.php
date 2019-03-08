@@ -2,7 +2,7 @@
   $serverName = "localhost";
   $username   = "root";
   $password   = "";
-  $dbName     = "belajar_web";
+  $dbName     = "belajar";
 
   $connect = new mysqli($serverName, $username, $password, $dbName);
   if ($connect->connect_error) {
