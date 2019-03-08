@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaya Kopi</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/normalize/normalize.css">
     <link rel="stylesheet" href="asset/css/sl-mp.min.css">
@@ -197,7 +198,7 @@
                             <h3><a href="layout/user/detail_kopi/detail_kopi.php" style="color:black">Kopi Lanang Sumatera Utara</a></h3>
                           </div>
                           <div class="col-xs-12 col-md-12">
-                            <p>Bintang</p>
+                            <p>Rank : <i class="fa fa-star"></i></p>
                           </div>
                           <div class="col-xs-12 col-md-12">
                             <p>Harga</p>
