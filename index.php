@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/normalize/normalize.css">
     <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/sl-mp.min.css">
   </head>
   <body>
     <header>
@@ -176,10 +177,10 @@
           <h4 class="center">Temukan biji kopi hasil roastingan favoritmu disini!</h4>
         </div>
       </div>
-      <div class="container m card">
+      <div class="container sl-p20 card">
         <div class="row">
           <div class="col-xs-12 col-md-3">
-
+            <!-- Image For Left  -->
           </div>
           <div class="col-xs-12 col-md-9">
             <div class="row">
@@ -237,7 +238,7 @@
           <h4 class="center">Temukan alat kopi favorit di Jayakopi.com</h4>
         </div>
       </div>
-      <div class="container card">
+      <div class="container sl-p20 card">
         <div class="row">
           <div class="col-xs-12 col-md-9">
             <div class="row">
@@ -262,19 +263,19 @@
             </div>
           </div>
           <div class="col-xs-12 col-md-3">
-
+            <!-- Image For Right -->
           </div>
         </div>
       </div>
     </main>
 
-    <footer>
-      <div class="container color-gray">
+    <footer class="color sl-mt30">
+      <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <h1>Informasi</h1>
             <p class="border"></p>
-            <ul>
+            <ul class="style-list">
               <li><a href="#">Tentang Jaya Kopi</a></li>
               <li><a href="#">Partnership</a></li>
               <li><a href="#">Pengiriman dan Pengembalian barang</a></li>
@@ -287,7 +288,7 @@
           <div class="col-xs-12 col-md-4">
             <h1>Blog</h1>
             <p class="border"></p>
-            <ul>
+            <ul class="style-list">
               <li><a href="#">1</a></li>
               <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
@@ -297,18 +298,24 @@
           <div class="col-xs-12 col-md-4">
             <h1>Pembayaran</h1>
             <p class="border"></p>
-
+            <ul class="style-list">
+              <li></li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-9">
-            <div class="copy-right">
-              <h5>Jaya Kopi &copy; 2019. Made Ahmad Syahputra</h5>
+      </div>
+      <div class="footer-wrapper color">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-9">
+              <div class="copy-right">
+                <h5>Jaya Kopi &copy; 2019. Made Ahmad Syahputra</h5>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-md-3">
-            <div class="faq-wrapper">
-              <a href="#">FAQ | Syarat dan Ketentuan</a>
+            <div class="col-xs-12 col-md-3">
+              <div class="faq-wrapper">
+                <a href="#">FAQ | Syarat dan Ketentuan</a>
+              </div>
             </div>
           </div>
         </div>

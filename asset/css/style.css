@@ -122,3 +122,18 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.4s;
 }
+.style-list{
+  list-style: none;
+  padding: 0;
+}
+
+.style-list li a{
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+.style-list li a::after{
+  color: black;
+}
+.color{
+  background-color: whitesmoke
+}

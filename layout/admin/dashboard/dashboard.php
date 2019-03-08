@@ -232,17 +232,17 @@
               <li><a href="../product/product_alat_kopi.php"><i class="fa fa-circle-o"></i>Alat Kopi</a></li>
             </ul>
           </li>
-          <li class="treeview">
+          <li>
             <a href="#">
               <i class="fa fa-file-text-o"></i> <span>Deskripsion</span>
             </a>
           </li>
-          <li class="treeview">
+          <li>
             <a href="#">
               <i class="fa fa-envelope"></i> <span>Pesan</span>
             </a>
           </li>
-          <li class="treeview">
+          <li>
             <a href="#">
               <i class="fa fa-bell"></i> <span>Pemberitahuan</span>
             </a>
